@@ -64,6 +64,8 @@ The Gazebo simulation has the following rostopics
 /scaled_pos_joint_traj_controller/state
 /tf
 /tf_static
-
+```
+We then select the following rostopic to simulate the robotic arm using the joint angles derived from the simulation
+```
 arm_client = actionlib.SimpleActionClient('/scaled_pos_joint_traj_controller/follow_joint_trajectory', FollowJointTrajectoryAction)
 ```
