@@ -1,6 +1,7 @@
 # ROS_UnityArm
-ROS connection between simulation and manipulator arm
+ROS connection between simulation and manipulator arm 
 
+(Currently working)
 
 Launch UR3 arm in Gazebo
 ```
